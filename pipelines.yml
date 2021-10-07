@@ -11,7 +11,7 @@ resources:
     type: Image
     configuration:
       registry: epd_arti                                # <-- replace with your artifactory integration
-      sourceRepository: docker_local               # <-- required if registry is Artifactory
+      sourceRepository: docker-eplus-demo               # <-- required if registry is Artifactory
       imageName: rtest1.jfrog.io/docker-eplus-demo/epd-docker  # < -- replace with your image path and name
       imageTag: 1.0.0
       autoPull: true
@@ -51,7 +51,7 @@ pipelines:
         type: DockerPush
         configuration:
           affinityGroup: dbp_group
-          targetRepository: docker-local
+          targetRepository: docker-eplus-demo
           integrations:
             - name: epd_arti                            # <-- replace with your artifactory integration
           inputSteps:
