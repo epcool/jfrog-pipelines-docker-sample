@@ -12,7 +12,7 @@ resources:
     configuration:
       registry: epd_arti                                # <-- replace with your artifactory integration
       sourceRepository: docker_local               # <-- required if registry is Artifactory
-      imageName: rtest1.jfrog.io/docker-eplus-demo/epd-docker  # < -- replace with your image path and name
+      imageName: docker-eplus-demo/epd-docker  # < -- replace with your image path and name
       imageTag: 1.0.0
       autoPull: true
       
