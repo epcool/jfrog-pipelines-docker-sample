@@ -40,7 +40,7 @@ pipelines:
           affinityGroup: dbp_group
           dockerFileLocation: .
           dockerFileName: Dockerfile
-          dockerImageName: docker-eplus-demo/epd-docker  # replace with your image path and name
+          dockerImageName: rtest1.jfrog.io/docker-eplus-demo/epd-docker  # replace with your image path and name
           dockerImageTag: ${run_number}
           inputResources:
             - name: dbp_repo
