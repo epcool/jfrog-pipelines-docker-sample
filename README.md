@@ -4,3 +4,5 @@ This example demonstrates how you can build a Docker image and push it to Artifa
 
 For instructions on how to run this sample and explanation of configuration, please reference JFrog Pipelines Quickstart documentation: [Pipelines Example: Docker Build and Push](https://www.jfrog.com/confluence/display/JFROG/Pipeline+Example%3A+Docker+Build+and+Push)
 ## 
+
+bla bla
